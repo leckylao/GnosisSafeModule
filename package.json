@@ -1,0 +1,43 @@
+{
+  "name": "test-gnosis",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "web3": "^1.2.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha --exit --recursive test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@gnosis.pm/safe-contracts": "^1.1.1-dev.2",
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@truffle/hdwallet-provider": "^1.0.34",
+    "eth-lightwallet": "^4.0.0",
+    "truffle": "^5.1.23"
+  },
+  "resolutions": {
+    "bitcore-lib": "^8.1.1"
+  }
+}
